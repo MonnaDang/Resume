@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đặng Hoàng Anh Chương - Personal Webpage</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header ul {
+            list-style: none;
+            padding: 0;
+        }
+        header ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        header ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.1em;
+        }
+        .container {
+            width: 90%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        .main {
+            background: #fff;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333;
+            border-bottom: 2px solid #77aaff;
+            padding-bottom: 5px;
+        }
+        ul {
+            list-style-type: disc;
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+        li {
+            margin: 5px 0;
+        }
+        .contact-info {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .contact-info a {
+            color: #77aaff;
+            text-decoration: none;
+        }
+        .back-to-top {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #333;
+            color: #fff;
+            padding: 10px 15px;
+            border-radius: 50%;
+            cursor: pointer;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Đặng Hoàng Anh Chương</h1>
+        <ul>
+            <li><a href="#profile">Profile</a></li>
+            <li><a href="#experience">Work Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Technical Skills</a></li>
+            <li><a href="#awards">Awards</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+    <div class="container">
+        <div id="profile" class="main section">
+            <h2>Profile</h2>
+            <p>I am a final-year student who has almost completed my graduation project and is actively seeking a full-time position or internship in a field related to my studies, with the availability to commit to a full-time schedule.</p>
+        </div>
+        <div id="experience" class="main section">
+            <h2>Work Experience</h2>
+            <h3>Internship at Solar Trung Nguyen Energy Company Limited</h3>
+            <p><strong>Solar Engineer Intern</strong> (May 2023 – Aug 2023)</p>
+            <ul>
+                <li>Gained practical experience in reading detailed construction AutoCAD drawings and installing PV inverters and solar panels. Tested installed panels to ensure proper functionality.</li>
+                <li>Assisted in setting parameters for PV inverters, including grid code and power rating, with the R&D team through Sunny Portal Software.</li>
+                <li>Supported the connection of installed panel modules and shingling into electrical grids, as well as maintaining solar energy systems.</li>
+            </ul>
+            <h3>Internship at Faraday Technology Vietnam</h3>
+            <p><strong>Physical Design Engineer Intern</strong> (Aug 2023 - Oct 2023)</p>
+            <ul>
+                <li>Learned to read and write Tcl/Python scripts in Linux environments.</li>
+                <li>Gained experience using the latest EDA tools for chip design, specifically Innovus.</li>
+                <li>Trained in synthesis/implementation flows, place and route (P&R) flows, timing closure flows, and static timing analysis.</li>
+                <li>Gained practical experience in managing and maintaining full-chip clock tree synthesis.</li>
+                <li>Performed gate-level simulations to validate design functionality and meet timing requirements.</li>
+                <li>Managed full-chip clock tree synthesis and floor planning, contributing to robust chip design.</li>
+                <li>Designed and verified high-speed, high-performance, and low-power digital logic circuits using advanced EDA tools.</li>
+                <li>Worked closely with the software team to ensure seamless hardware-software integration.</li>
+            </ul>
+            <h3>Member at HCM UTE Advanced Power Electronics Lab</h3>
+            <p><strong>Assistant</strong> (July 2022 – Present)</p>
+            <ul>
+                <li>Researched power electronics circuits such as Buck, Boost, Buck-Boost, Inverters, etc.</li>
+                <li>Designed and drew PCB layouts for power circuits.</li>
+                <li>Tested the functionality of power circuits.</li>
+                <li>Assisted in project execution, including soldering circuits and selecting components.</li>
+                <li>Experienced with oscilloscopes, programmable DC voltage sources, digital multimeters, transformers, and inductors.</li>
+                <li>Designed inductors for power circuits.</li>
+                <li>Embedded code into microcontrollers and digital processors.</li>
+                <li>Designed sensor circuits for current and voltage sensing in power circuits.</li>
+            </ul>
+        </div>
+        <div id="education" class="main section">
+            <h2>Education</h2>
+            <h3>HCMC University of Technology and Education</h3>
+            <p><strong>Major:</strong> Electrical and Electronics Engineering Technology (Aug 2020 – expected Aug 2024)</p>
+            <p><strong>GPA:</strong> 8.01/10</p>
+            <p><strong>Graduation Thesis:</strong> Modeling and Control of Three-Phase Two-Level Grid-Connected Inverter</p>
+            <ul>
+                <li>Calculated and designed schematics, and drew PCBs for Bootstrap IGBT gate-driver circuits, relay circuits, and three-phase two-level inverters.</li>
+                <li>Designed voltage and current sensing circuitry.</li>
+                <li>Designed Inductor-filter.</li>
+                <li>Selected controllers and determined controller parameters using the Bode plot method.</li>
+                <li>Simulated grid-connected SVPWM three-phase inverters using SIMULINK and PSIM.</li>
+                <li>Applied SPWM and SVPWM techniques.</li>
+                <li>Implemented PR and PI controllers.</li>
+                <li>Worked with instantaneous power theory, coordinate transformations, and discrete controller implementation.</li>
+                <li>Embedded code into DSP TMS320F28379D.</li>
+            </ul>
+        </div>
+        <div id="skills" class="main section">
+            <h2>Technical Skills</h2>
+            <ul>
+                <li>Experience with Matlab/Simulink.</li>
+                <li>Knowledge of Digital Circuits and Power Supply analysis and design, including AC-DC, DC-DC, and DC-AC converters, specifically Buck, Boost, Buck-Boost, and Flyback converters, as well as solar inverters.</li>
+                <li>Skilled in analog circuit design, specifically Current and Voltage sensor circuitry.</li>
+                <li>Knowledge of Power Factor Correction (PFC), inverters, semiconductor devices, and gate drives.</li>
+                <li>Understanding of Feed-Back Control Theory and Controller Design using Root Locus and Bode Plot techniques.</li>
+                <li>Basic knowledge of thermal management, Electromagnetic compatibility (EMC), Inductor and Transformer Design.</li>
+                <li>Experience in PCB design, including constraint setup, placement, routing, and generating Gerbers.</li>
+                <li>Proficient in C/C++ programming, particularly in low-level microcontroller programming, involving reading from and writing to registers for Arduino, ESP32, ESP8266 microcontrollers, and DSP TMS320F28379D.</li>
+                <li>Basic knowledge of Python, JavaScript, and Linux programming.</li>
+                <li>Basic knowledge of Physical Design.</li>
+                <li>Experienced with Office, AutoCAD, PSIM, Proteus, LTSpice, Matlab/Simulink, and other simulation tools.</li>
+            </ul>
+        </div>
+        <div id="awards" class="main section">
+            <h2>Awards</h2>
+            <ul>
+                <li>2nd Prize in the Competition "QUA TANG 20/10" of the Faculty of Electrical-Electronics, Nov 2022.</li>
+                <li>Academic Encouragement Scholarship, Apr 2023.</li>
+                <li>Academic Encouragement Scholarship, Oct 2023.</li>
+            </ul>
+        </div>
+        <div id="contact" class="main section">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:dangtonny0819@gmail.com">dangtonny0819@gmail.com</a></p>
+            <p>Phone: 081 958 2344</p>
+            <p>Location: Tan Binh, Ho Chi Minh City</p>
+        </div>
+    </div>
+    <div class="contact-info">
+        <p>Email: <a href="mailto:dangtonny0819@gmail.com">dangtonny0819@gmail.com</a></p>
+        <p>Phone: 081 958 2344</p>
+        <p>Location: Tan Binh, Ho Chi Minh City</p>
+    </div>
+    <div class="back-to-top" id="back-to-top">
+        ↑
+    </div>
+    <script>
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("back-to-top").style.display = "block";
+            } else {
+                document.getElementById("back-to-top").style.display = "none";
+            }
+        }
+
+        document.getElementById("back-to-top").onclick = function() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        };
+    </script>
+</body>
+</html>
